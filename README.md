@@ -1,3 +1,3 @@
-# CADTalk Project Page
+# DiffCSG Project Page
 
 
