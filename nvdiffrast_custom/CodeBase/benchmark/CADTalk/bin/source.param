@@ -1,0 +1,9 @@
+bin_bottom_radius = 5
+bin_top_radius = 7
+bin_height = 10
+bin_thickness = 0.5
+stand_radius = 5.5
+stand_height = 1
+upper_ring_height = 1
+upper_ring_curvature = 1
+s=1

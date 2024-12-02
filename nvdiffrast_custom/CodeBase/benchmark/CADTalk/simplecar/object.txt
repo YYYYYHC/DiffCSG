@@ -1,0 +1,10 @@
+cube0:[0, 0, 0, 0, 0, 0, s*60, s*20, s*base_height ]
+cube1:[0, 0, 0, 0+5*s, 0+0, 0+s*base_height/2+s*top_height/2-0.001*s, s*30, s*20,s*top_height]
+cylinder0:[0+90, 0+0, 0+0, 0-20*s, 0-s*track/2, 0+0, s,s,3*s, 2*wheel_radius, 2*wheel_radius]
+cylinder1:[0+90, 0+0, 0+0, 0-20*s, 0+s*track/2, 0+0, s,s,3*s, 2*wheel_radius, 2*wheel_radius]
+cylinder2:[0+90, 0+0, 0+0, 0+20*s, 0-s*track/2, 0+0, s,s,3*s, 2*wheel_radius, 2*wheel_radius]
+cylinder3:[0+90, 0+0, 0+0, 0+20*s, 0+s*track/2, 0+0, s,s,3*s, 2*wheel_radius, 2*wheel_radius]
+cylinder4:[0+90, 0+0, 0+0, 0-20*s, 0+0, 0+0,s,s, s*track, 2*2,2*2]
+cylinder5:[0+90, 0+0, 0+0, 0+20*s, 0+0, 0+0,s,s, s*track, 2*2,2*2]
+
+Tree: (((((((cube0+cube1)+cylinder0)+cylinder1)+cylinder2)+cylinder3)+cylinder4)+cylinder5)

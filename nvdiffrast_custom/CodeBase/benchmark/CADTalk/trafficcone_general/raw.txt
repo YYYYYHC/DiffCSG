@@ -1,0 +1,37 @@
+// TRAFFIC CONE
+
+// Copyright Algot Runeman, 2017
+//    This program is free software: you can redistribute it and/or modify  it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+//    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+//    You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+// version04 - 2017-02-07 - taller and thinner top
+// version03 - 2017-02-07 - with base hole to allow stacking - with wider base
+// version02 - 2017-02-07 - square base but hole is missing in base for stackingS
+// version01 - 2017-02-06
+
+$fn=30; // for curve smoothing
+
+base_size = 16;
+round_radius=2;
+module cone(){
+    //gt label: base
+//gt label: ***
+cube([base_size-2*round_radius,base_size,1],center=true);
+cube([base_size,base_size-2*round_radius,1],center=true);
+      translate([base_size/2-round_radius,base_size/2-round_radius,0])
+    cylinder(1,round_radius,round_radius,center=true);
+    translate([base_size/2-round_radius,round_radius-base_size/2,0])
+    cylinder(1,round_radius,round_radius,center=true);
+    translate([round_radius-base_size/2,base_size/2-round_radius,0])
+    cylinder(1,round_radius,round_radius,center=true);
+    translate([round_radius-base_size/2,round_radius-base_size/2,0])
+    cylinder(1,round_radius,round_radius,center=true);  
+
+     cylinder(30,7,.8);  
+} // end module
+
+
+cone();

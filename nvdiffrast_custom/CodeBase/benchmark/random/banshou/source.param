@@ -1,0 +1,5 @@
+head_width = 1
+head_height = 1
+bar_width = 0.8
+bar_length = 2
+extrude_height = 3

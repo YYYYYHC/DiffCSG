@@ -1,0 +1,13 @@
+cube1:[0,0,0, xshift,0,zshift, leg_width,leg_width,leg_height,0]
+cube2:[0,0,0, seat_width-leg_width+xshift,0,zshift, leg_width,leg_width,leg_height,0]
+cube3:[0,0,0, seat_width-leg_width+xshift,seat_width-leg_width +0,zshift, leg_width,leg_width,leg_height,0]
+cube4:[0,0,0, xshift,seat_width-leg_width+0,zshift, leg_width,leg_width,leg_height,0]
+cube5:[0,0,0,xshift+seat_width/2 -leg_width/2  ,seat_width/2 -leg_width/2 + 0,leg_height+zshift, seat_width , seat_width,seat_height,0]
+cube6:[0,0,0, xshift, seat_width - back_width+0, seat_height + leg_height +zshift , back_width, back_width, back_height,0]
+cube7:[0,0,0,xshift+ (seat_width-back_width)/3, seat_width -back_width+0, seat_height + leg_height +zshift , back_width, back_width, back_height,0]
+cube8:[0,0,0, xshift+2*(seat_width-back_width)/3, seat_width -back_width+0, seat_height + leg_height +zshift , back_width, back_width, back_height,0]
+cube9:[0,0,0, xshift+(seat_width-back_width), seat_width -back_width+0, seat_height + leg_height +zshift , back_width, back_width, back_height,0]
+cube10:[0,0,0, xshift+(seat_width -back_width)/2, seat_width -back_width+0, back_height +seat_height + leg_height +zshift, seat_width, back_width, back_width,0]
+cube11:[0,0,0, 0,0,0, 1, 0, seat_height,0]
+
+Tree: (((((((((cube1 + cube2) + cube3) + cube4) + cube5) + cube6) +cube7)+cube8)+cube9) +cube10)

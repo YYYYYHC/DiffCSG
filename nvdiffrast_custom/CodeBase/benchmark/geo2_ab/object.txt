@@ -1,0 +1,6 @@
+cube1: [0,0,0,0,0,0, 10, 10, 10 ]
+cube2: [0,0,0,0+2*R/3,0,6, 5, 5, 10 ]
+cube3: [0,0,0,0,0,0, cube_sub_len, cube_sub_width, cube_sub_width]
+cube4: [0,0,0,0,0,0, cube_sub_width, cube_sub_len, cube_sub_width]
+cube5: [0,0,0,0,0,0, cube_sub_width, cube_sub_width, cube_sub_len]
+Tree: (cube1 - cube2) 

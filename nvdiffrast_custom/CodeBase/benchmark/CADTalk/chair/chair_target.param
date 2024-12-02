@@ -1,0 +1,8 @@
+leg_height = 5
+leg_width = 2
+seat_width =15
+seat_height = 3
+back_height = 7
+back_width = 1.5
+zshift = -12
+xshift = -5

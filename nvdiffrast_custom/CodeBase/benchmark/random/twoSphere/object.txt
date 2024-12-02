@@ -1,0 +1,3 @@
+sphere1:[0,0,0, 2.2*s+dx*s,1.5*s-delta*s,1.5*s,1.5*s,1.5*s,1.5*s]
+sphere2: [0,0,0, 2.2*s+dx*s,1.5*s,1.5*s,1.5*s,1.5*s,1.5*s]
+Tree:(sphere1+sphere2)

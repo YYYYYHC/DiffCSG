@@ -1,0 +1,5 @@
+wheel_radius = 4
+base_height = 10
+top_height = 10
+track = 30
+s=0.5

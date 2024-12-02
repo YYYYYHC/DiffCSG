@@ -1,0 +1,4 @@
+cube1:[0,0,0, 0,0,0, 4*s,4*s,4*s]
+sphere1:[0,0,0, 2.2*s+delta*s,1.5*s,1.5*s,1.5*s,1.5*s,1.5*s]
+
+Tree:(cube1-sphere1)

@@ -1,0 +1,70 @@
+$fa = 1
+$fs = 0.4
+d1 = 30
+d2 = 20
+d3 = 20
+d4 = 10
+d5 = 20
+w1 = 15
+w2 = 45
+w3 = 25
+h = 14
+track = 35
+wheel_radius = 10
+side_spheres_radius = 50
+hub_thickness = 4
+cylinder_radius = 2
+radius = 2
+base_height = 10
+top_height = 14
+base_length = 60
+top_length = 30
+width = 20
+top_offset = 5
+main0()
+    translate0([-50 0 0 ])
+    linear_extrude0(h)
+    polygon0([[[0 w1/2 ]] [[d1 w1/2 ]] [[d1+d2 w2/2 ]] [[d1+d2+d3 w2/2 ]] [[d1+d2+d3+d4 w3/2 ]] [[d1+d2+d3+d4+d5 w3/2 ]] [[d1+d2+d3+d4+d5 /2 ]] [[d1+d2+d3+d4 /2 ]] [[d1+d2+d3 /2 ]] [[d1+d2 /2 ]] [[d1 /2 ]] [[0 /2 ]] ])
+    translate1([d1+d2+d3/2 0 h ])
+    resize0([d2+d3+d4 w2/2 w2/2 ])
+    sphere0(w2/2)
+    translate2([d1/2 0 h/2 ])
+    axle0()
+        rotate0([90 0 0 ])
+        cylinder0(track, radius)
+    translate3([d1+d2+d3+d4+d5/2 0 h/2 ])
+    axle1()
+        rotate1([90 0 0 ])
+        cylinder1(track, radius)
+    translate4([d1/2 track/2 h/2 ])
+    simple_wheel0()
+        difference0()
+            sphere1(wheel_radius)
+            translate5([0 side_spheres_radius+hub_thickness/2 0 ])
+            sphere2(side_spheres_radius)
+            translate6([0 -(side_spheres_radius+hub_thickness/2) 0 ])
+            sphere3(side_spheres_radius)
+    translate7([d1/2 /2 h/2 ])
+    simple_wheel1()
+        difference1()
+            sphere4(wheel_radius)
+            translate8([0 side_spheres_radius+hub_thickness/2 0 ])
+            sphere5(side_spheres_radius)
+            translate9([0 -(side_spheres_radius+hub_thickness/2) 0 ])
+            sphere6(side_spheres_radius)
+    translate10([d1+d2+d3+d4+d5/2 track/2 h/2 ])
+    simple_wheel2()
+        difference2()
+            sphere7(wheel_radius)
+            translate11([0 side_spheres_radius+hub_thickness/2 0 ])
+            sphere8(side_spheres_radius)
+            translate12([0 -(side_spheres_radius+hub_thickness/2) 0 ])
+            sphere9(side_spheres_radius)
+    translate13([d1+d2+d3+d4+d5/2 /2 h/2 ])
+    simple_wheel3()
+        difference3()
+            sphere10(wheel_radius)
+            translate14([0 side_spheres_radius+hub_thickness/2 0 ])
+            sphere11(side_spheres_radius)
+            translate15([0 -(side_spheres_radius+hub_thickness/2) 0 ])
+            sphere12(side_spheres_radius)

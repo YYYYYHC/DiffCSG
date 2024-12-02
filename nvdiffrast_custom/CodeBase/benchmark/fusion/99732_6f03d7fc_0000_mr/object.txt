@@ -1,0 +1,4 @@
+polyline1: [x1, y1,   d, 0,   x1, -y1,    0,0,0, 0,0,0, 2.5,2.5,2.5, 1 ]
+cylinder1: [0,0,0, 0,0,0, 2.5,2.5,2.6, r1,r1]
+cylinder2: [0,0,0, 0,0,0, 2.5,2.5,2.5, r2,r2]
+Tree: ((cylinder2 - cylinder1) +(polyline1-cylinder1))

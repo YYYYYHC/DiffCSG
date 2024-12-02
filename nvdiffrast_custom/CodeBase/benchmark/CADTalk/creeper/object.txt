@@ -1,0 +1,12 @@
+cube0:[0, 0, 0, 0-22.5*s, 0-s*6.5, 0+0, s*23 ,s*23 ,s*23 ,2]
+cube1:[0, 0, 0, 0-8.5*s, 0-transY*s, 0+14*s, 7.5*s, 12*s, 3*s ,2]
+cube2:[0, 0, 0, 0-11*s, 0-transY*s, 0+8.5*s, 8*s, 6*s, 6*s,2]
+cube3:[0, 0, 0, 0-8.5*s, 0-transY*s, 0+5.5*s, 7.5*s, 6*s, 3*s,2 ]
+cube4:[0, 0, 0, 0-transX*s, 0-transY*s, 0+3*s, 6*s, 6*s, 6*s ,2]
+cube5:[0, 0, 0, 0-transX*s, 0-transY*s, 0+14*s, 6*s, 6*s, 6*s,2 ]
+cube6:[0, 0, 0, 0-transX*s, 0-4*s, 0+3*s, 3*s ,3*s, 3*s,2]
+cube7:[0, 0, 0, 0-0-transX*s, 0-4*s, 0+17.5*s, 3*s ,3*s, 3*s,2]
+cube8:[0, 0, 0, 0, 0, 0, s*38, s*12, s*23,2 ]
+cube9:[0, 0, 0, 0+35*s, 0+12*s, 0+0, transX*s, 11*s, 23*s,2 ]
+cube10:[0, 0, 0, 0+35*s, 0-11*s, 0+0, transX*s, 11*s, 23*s,2 ]
+Tree:((((((((((cube0-cube1) -cube2)-cube3)-cube4)-cube5) +cube6)+cube7) +cube8) +cube9) +cube10)

@@ -1,0 +1,1 @@
+{"lr": 2e-2, "stop":1e-3, "param_ignore":["angle","s"],"lr_all": 1e-3}

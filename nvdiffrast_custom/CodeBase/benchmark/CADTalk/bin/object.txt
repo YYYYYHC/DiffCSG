@@ -1,0 +1,6 @@
+cylinder0:[0, 0, 0, 0, 0, 0, s,s,s*bin_height,bin_bottom_radius, bin_top_radius]
+cylinder1:[0, 0, 0, 0+0, 0+0, 0+s*bin_thickness*2, s,s,s*bin_height,bin_bottom_radius-bin_thickness, bin_top_radius-bin_thickness]
+cylinder2:[0, 0, 0, 0+0, 0+0, 0-s*bin_height/2-s*stand_height/2, s,s,s*stand_height,stand_radius,stand_radius]
+cylinder3:[0, 0, 0, 0+0, 0+0, 0+s*bin_height/2+s*upper_ring_height/2, s,s,s*upper_ring_height,bin_top_radius, bin_top_radius-upper_ring_curvature]
+cylinder4:[0, 0, 0, 0+0, 0+0, 0+s*bin_height/2+s*upper_ring_height/2,s,s,s*upper_ring_height+1,bin_top_radius-upper_ring_curvature-0.25,bin_top_radius-upper_ring_curvature-0.25]
+Tree: (((cylinder0-cylinder1)+cylinder2)+(cylinder3-cylinder4))

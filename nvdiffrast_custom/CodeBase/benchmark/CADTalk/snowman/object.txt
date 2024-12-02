@@ -1,0 +1,15 @@
+sphere0:[0,0,0,0,0,10*sx,sx*20,sx*20,sx*20]
+sphere2:[0,0,0,0,0,40*sx, sx*15,sx*15,sx*15]
+sphere3: [0, 0, 0, 0, -15*sx, 40*sx, sx*2, sx*2, sx*2]
+sphere4: [0, 0, 0, 0, -14*sx, 45*sx, sx*2, sx*2, sx*2]
+sphere5: [0, 0, 0,  0, -14*sx, 35*sx, sx*2, sx*2, sx*2]
+sphere6: [0, 0, 0, 0, 0, 60*sx, sx*10, sx*10, sx*10]
+cylinder0: [0, 100, 0,-15*sx, 0, 45*sx,  sx, sx, sx*20, 4,4]
+cylinder1: [0, 80, 0, 20*sx, 0, 42*sx,  sx, sx, sx*20,4,4]
+cylinder2: [90, 0, 0, 0, -10*sx, 60*sx, sx,sx, sx*5, 2, 4]
+sphere7: [0,0,0, -4*sx, -9*sx, 62*sx, sx*2, sx*2, sx*2]
+sphere8: [0,0,0, 4*sx, -9*sx, 62*sx, sx*2, sx*2, sx*2]
+cylinder3: [0,0,0, 0, 0, 65*sx+sx, sx, sx,sx*2, 20, 20]
+cylinder4: [0, 0, 0, 0, 0, 65*sx+sx*5,  sx,sx,sx*10, 14, 14]
+
+Tree:((((((((((((sphere0 + sphere2) +sphere3) +sphere4)+sphere5)+sphere6)+cylinder0) +cylinder1) +cylinder2) +sphere7)+sphere8)+cylinder3)+cylinder4)

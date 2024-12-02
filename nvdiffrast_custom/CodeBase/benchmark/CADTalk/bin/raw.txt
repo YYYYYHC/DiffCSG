@@ -1,0 +1,20 @@
+bin_bottom_radius = 5
+bin_top_radius = 7
+bin_height = 10
+bin_thickness = 0.5
+stand_radius = 5.5
+stand_height = 1
+upper_ring_height = 1
+upper_ring_curvature = 1
+main0()
+    difference0()
+        cylinder0(r1=bin_bottom_radius, r2=bin_top_radius, h=bin_height, center=true)
+        translate0([0 0 bin_thickness*2 ])
+        cylinder1(r1=bin_bottom_radius-bin_thickness, r2=bin_top_radius-bin_thickness, h=bin_height, center=true)
+    translate1([0 0 -bin_height/2-stand_height/2 ])
+    cylinder2(r=stand_radius, h=stand_height, center=true)
+    difference1()
+        translate2([0 0 bin_height/2+upper_ring_height/2 ])
+        cylinder3(r1=bin_top_radius, r2=bin_top_radius-upper_ring_curvature, h=upper_ring_height, center=true)
+        translate3([0 0 bin_height/2+upper_ring_height/2 ])
+        cylinder4(r=bin_top_radius-upper_ring_curvature-0.25, h=upper_ring_height+0.1, center=true)

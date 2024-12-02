@@ -1,0 +1,8 @@
+cube0:[0,0,0,0,0,-10, base_size-2*round_radius,base_size,1]
+cube1:[0,0,0,0,0,-10, base_size,base_size-2*round_radius,1]
+cylinder0:[0,0,0,base_size/2-round_radius,base_size/2-round_radius,-10,1,1,1,round_radius*2,round_radius*2]
+cylinder1:[0,0,0,base_size/2-round_radius,-base_size/2+round_radius,-10,1,1,1,round_radius*2,round_radius*2]
+cylinder2:[0,0,0,-base_size/2+round_radius,base_size/2-round_radius,-10,1,1,1,round_radius*2,round_radius*2]
+cylinder3:[0,0,0,-base_size/2+round_radius,-base_size/2+round_radius,-10,1,1,1,round_radius*2,round_radius*2]
+cylinder4:[0,0,0,0,0,h/2-10,1,1,h,0.8*2,7*2]
+Tree:((((((cube0+cube1)+cylinder0) +cylinder1)+cylinder2)+cylinder3)+cylinder4)

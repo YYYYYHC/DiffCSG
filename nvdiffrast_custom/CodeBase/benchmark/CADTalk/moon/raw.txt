@@ -1,0 +1,14 @@
+r=5;
+x=2.5;
+z=2.5;
+fudge=0.1;
+$fn=16;
+
+difference(){
+rotate([90,0,0])
+cylinder(h=1,r1=r,r2=r,center=true);
+
+translate([x,0,z])
+rotate([90,0,0])
+cylinder(h=1+fudge,r1=r,r2=r,center=true);
+}

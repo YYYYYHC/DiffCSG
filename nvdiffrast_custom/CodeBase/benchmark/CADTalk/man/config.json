@@ -1,0 +1,1 @@
+{"lr": 1e-2, "stop":1e-3, "param_ignore":["fudge","s"],"lr_all":5e-4}

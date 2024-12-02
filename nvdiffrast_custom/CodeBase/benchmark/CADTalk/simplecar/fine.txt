@@ -1,0 +1,8 @@
+cube0:[rotate:0, 0, 0, translate:0, 0, 0, param:['([60 20 base_height ], center=true)']]
+cube1:[rotate:0, 0, 0, translate:0+5, 0+0, 0+base_height/2+top_height/2-0.001, param:['([30 20 top_height ], center=true)']]
+cylinder0:[rotate:0+90, 0+0, 0+0, translate:0-20, 0-track/2, 0+0, param:['(h=3, r=wheel_radius, center=true)']]
+cylinder1:[rotate:0+90, 0+0, 0+0, translate:0-20, 0+track/2, 0+0, param:['(h=3, r=wheel_radius, center=true)']]
+cylinder2:[rotate:0+90, 0+0, 0+0, translate:0+20, 0-track/2, 0+0, param:['(h=3, r=wheel_radius, center=true)']]
+cylinder3:[rotate:0+90, 0+0, 0+0, translate:0+20, 0+track/2, 0+0, param:['(h=3, r=wheel_radius, center=true)']]
+cylinder4:[rotate:0+90, 0+0, 0+0, translate:0-20, 0+0, 0+0, param:['(h=track, r=2, center=true)']]
+cylinder5:[rotate:0+90, 0+0, 0+0, translate:0+20, 0+0, 0+0, param:['(h=track, r=2, center=true)']]

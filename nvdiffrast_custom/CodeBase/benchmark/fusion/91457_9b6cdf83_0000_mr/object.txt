@@ -1,0 +1,5 @@
+cylinder1: [0,0,0, 0,0,h1/2, 10,10,h1, r1,r1]
+cylinder2: [0,0,0, 0,0,h1+ h2/2, 10,10,h2, r2,r2]
+cylinder3: [0,0,0, 0,0,h1+ h2 + h3/2, 10,10,h3, r3,r3]
+
+Tree: ((cylinder1 + cylinder2) + cylinder3)
